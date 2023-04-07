@@ -1,6 +1,7 @@
 import sys, math
 
 a = int(sys.stdin.readline())
+
 b = list(sys.stdin.readline().strip())
 mul = a * int(''.join(b))
 b.reverse()
